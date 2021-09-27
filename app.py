@@ -24,7 +24,5 @@ def padidegoharMsg(Name,Phone,Title):
     return jsonify(_result)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8090)
-    
+    app.run(debug=True, port=8090, host='0.0.0.0')
 
-    
